@@ -5,17 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Karibu Restaurant</title>
 <style>
-    body{background-color: burlywood;}
+    body{background-color: plum;}
+    .section2{background-color: brown;}
+    .section3{background-color: red;}
+    .section1{background-color: darkolivegreen;}
+    .section4{background-color: cadetblue;}
 </style>    
 </head>
 <body>
     <h1 style="color: darkred; font-size: 50px; font-weight: 500; text-align: center;"><b>Karibu Restaurant</b></h1>
     <img src="Karibu.jpg" alt="" width="500" height="400">
     <p>Welcome to Karibu Restaurant. We serve delicious meals prepared with fresh ingredients.
-         Our menu includes traditional and modern dishes for everyone to enjoy.</p><br>
+         Our menu includes traditional and modern dishes for everyone to enjoy.</p>
 
     <h2 style="color: darkred; text-align: center;">Our Menu</h2>
- <div class="section2">
+    <div class="section2">
      <table border="1" style="background-color: beige;">
             <tr style="background-color: black; color: pink;">
                 <th>Meal</th>
@@ -47,22 +51,25 @@
             <th>Well marinated roasted beef</th>
             <th>200 per quater</th>
             </tr>
- </div>
+ 
         <tr>
             <th>Kuku Choma</th>
             <th>Well marinated roasted chicken</th>
             <th>200 per quater</th>
         </tr>
     </table>
+    </div>
         <h3 style="color: darkred; text-align: center;">Popular Items</h3>
-        <ol>
-            <LI>Pilau</LI>
-            <LI>Chicken and Chips</LI>
-            <LI>Ugali and sukuma</LI>
-            <LI>Chapati and beans</LI>
-            <li>Nyama choma</li>
-        </ol>
-        <h4 style="color: darkred; text-align: center;">Customer Login</h4>
+        <div class="section1">
+            <ol style="color: aliceblue;">
+                <LI>Pilau</LI>
+                <LI>Chicken and Chips</LI>
+                <LI>Ugali and sukuma</LI>
+                <LI>Chapati and beans</LI>
+                <li>Nyama choma</li>
+            </ol>
+        </div>
+         <h4 style="color: darkred; text-align: center;">Customer Login</h4>
     <div class="section3">
         <form action="" style="background-color: pink;">
             <label for="uname">Username</label><br>
@@ -74,20 +81,20 @@
     </div> 
 
     <h3 style="color: darkred; text-align: center;">Make a reservation</h3>
-     <form action="">
-        <label for="name">Name</label><br>
-        <input type="text" name="n-me" id="name"><br>
-        <label for="email">Email</label><br>
-        <input type="text" name="mail" id="email"><br>
-        <label for="nguests">Number of Guests</label><br>
-        <input type="number" name="" id="nguests"><br>
-        <label for="date">Date</label><br>
-        <input type="date" name="" id="date>" > <br>
-        <input type="submit" value="Make Reservation">
-
-     </form>
-     <a href="services.html" >Click to view servives</a>
-    <p><b>ALL ARE WELCOME</b></p> 
+     <div class="section4">
+         <form action="">
+            <label for="name">Name</label><br>
+            <input type="text" name="n-me" id="name"><br>
+            <label for="email">Email</label><br>
+            <input type="text" name="mail" id="email"><br>
+            <label for="nguests">Number of Guests</label><br>
+            <input type="number" name="" id="nguests"><br>
+            <label for="date">Date</label><br>
+            <input type="date" name="" id="date>" > <br>
+            <input type="submit" value="Make Reservation">
+         </form>
+     </div> <a href="services.html" >Click to view servives</a>
+    <p style="color: darkred;"><b>ALL ARE WELCOME</b></p> 
     
 </body>
 </html>
