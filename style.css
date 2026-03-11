@@ -1,0 +1,22 @@
+body{
+    background-color: pink;}
+    h3{color: darkred;
+    font-size: xx-large;
+    font-weight: 600;}
+    h1{color: darkgreen;}
+
+    p{color: darkolivegreen;}
+    .underline{
+        text-decoration: underline;
+    }
+    .menu-image{
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        border: 2px solid black;
+    }
+    .dining-image{
+        width: 300px;
+        height: 200px;
+        border-radius: 20px;
+    }
