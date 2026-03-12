@@ -5,22 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Karibu Restaurant</title>
 <style>
-    body{background-color: pink;}
+    body{background-color: gray;}
     .section2{background-color: brown;}
     .section3{background-color: red;}
     .section1{background-color: bisque;}
-    .section4{background-color:brown;}
+    .section4{border: 1px solid white;
+              padding: 10px;
+
+    }
+    #Food{
+        color: darkmagenta;
+    }
+    div p{
+        color: darkgreen;
+    }
+    
 </style>    
 </head>
 <body>
-    <h1 style="color: darkred; font-size: 50px; font-weight: 500; text-align: center;"><b>Karibu Restaurant</b></h1>
-    <img src="Karibu.jpg" style="display: block;margin: auto;"  width="500" height="400">
-    <p>Welcome to Karibu Restaurant. We serve delicious meals prepared with fresh ingredients.
-         Our menu includes traditional and modern dishes for everyone to enjoy.</p>
+    <div>
+        <div>
+            <h1 style="color: darkred; font-size: 50px; font-weight: 500; text-align: center;"><b>Karibu Restaurant</b></h1>
+            <img src="Karibu.jpg" alt="Karibu restaurant" style="display: block;margin: auto;"  width="500" height="400">
+            <p>FOR AMAZING MEALS</p>
+        </div>
+        <p>Welcome to Karibu Restaurant. We serve delicious meals prepared with fresh ingredients.
+             Our menu includes traditional and modern dishes for everyone to enjoy.</p>
+    </div>
 
     <h2 style="color:darkred;text-align:center;">Our Menu</h2>
     <div class="section2">
-     <table border="1" style="background-color: bisque">
+     <table border="1" style="background-color: bisque" id="Food">
             <tr style="background-color: black; color: pink;">
                 <th>Meal</th>
                 <th>Description</th>
@@ -82,7 +97,7 @@
 
     <h3 style="color: darkred; text-align: center;">Make a reservation</h3>
      <div class="section4">
-         <form action="">
+         <form action="" class="section4">
             <label for="name">Name</label><br>
             <input type="text" name="n-me" id="name"><br>
             <label for="email">Email</label><br>
@@ -91,7 +106,7 @@
             <input type="number" name="" id="nguests"><br>
             <label for="date">Date</label><br>
             <input type="date" name="" id="date>" > <br>
-            <input type="submit" value="Make Reservation">
+           <br> <input type="submit" value="Make Reservation">
          </form>
      </div> <a href="services.html" >Click to view servives</a>
     <p style="color: darkred;"><b>ALL ARE WELCOME</b></p> 

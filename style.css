@@ -1,9 +1,10 @@
 body{
-    background-color: pink;}
-    h3{color: darkred;
-    font-size: xx-large;
-    font-weight: 600;}
-    h1{color: darkgreen;}
+    background-color: #ffffff;}
+    h3{
+    font-size: 20px;
+    font-weight: 600;
+     text-align: center;}
+    h1{color: darkred;}
 
     p{color: darkolivegreen;}
     .underline{
@@ -19,4 +20,15 @@ body{
         width: 300px;
         height: 200px;
         border-radius: 20px;
+    }
+    .room-image{
+        width: 300px;
+        height: 200px ;
+        border-radius: 20px;
+    }
+    .event-image{
+        width: 300px;
+        height: 200px;
+        border-radius: 50%;
+        border: 2px solid black;
     }
