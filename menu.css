@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(243, 235, 236);
+    font-size: medium;
+}
+.page{
+    width: 900px;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    font-size: 100px;
+    color: darkgoldenrod;
+    text-shadow: 2px 2px 5px gray;
+}
+.t1{
+    border: 1; color: black;
+    padding: 20px;
+    width: 300px;
+}
+h2{
+    color: darkred;
+}
+.logo{
+    width: 200 px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+.cuisine{
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+.cuisine img{
+    width: 200px;
+    height: auto;
+    border-radius: 20px;
+}
+.special-menu{
+    display: flex; 
+    align-items:flex-start ;
+    gap: 40px;
+}
+.special-menu img {
+    width: 200px;
+    height: auto;
+    border-radius: 20px;
+}
+.drinks-menu{
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+.drinks-menu img {
+    width: 200px;
+    height: auto;
+    border-radius:50% ;
+}
+.cocktails-menu{
+    display: flex;
+    align-items: flex-start;
+    gap: 60px;
+}
+.cocktails-menu img{
+    width: 200px;
+    height: auto;
+    border-radius:20px;
+}
+.west-menu{
+    display: flex;
+    align-items: flex-start;
+    gap: 60px;
+}
+.west-menu img{
+    width: 150px;
+    height: auto;
+    border-radius: 20px;
+}
