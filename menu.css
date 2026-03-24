@@ -11,6 +11,7 @@ h1{
     font-size: 100px;
     color: darkgoldenrod;
     text-shadow: 2px 2px 5px gray;
+    font-family:"dancing script","san-serif" ;
 }
 .t1{
     border: 1; color: black;

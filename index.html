@@ -5,31 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Karibu Restaurant</title>
 <style>
-    body{background-color: rgb(225, 222, 225);}
-    .section2{background-color: rgb(121, 54, 54);}
-    .section3{background-color: rgb(221, 144, 144);}
-    .section1{background-color: rgb(210, 184, 153);}
-    .section4{border: 1px solid white;
-              padding: 10px;
-
-    }
-    #Food{
-        color: rgb(104, 8, 104);
-    }
+    body{background-color: darkred;}
+    
     div p{
         color: darkgreen;
     }
-    .list{
-        list-style-type: lower-greek;
+        
+    
+    h1{
+        text-shadow: 2px 2px 5px gray;
+
     }
-    
-    
+    .table{
+        margin-left: 20%;
+    }
+    .form-reservation{
+        position: absolute;
+        bottom: 50px;
+        left: 20px;
+        border-left: 5px solid darkred;
+        padding: 20px;
+        margin-right: 50px;
+    }
+    .ancestor{
+        position: relative;
+        width: 400px;
+        height: 400px;
+
+    }
+    .pop-container{
+        text-align: center;
+    }
+    .list{
+        display: inline-block;
+        text-align: left;
+    }
 </style>    
 </head>
-<body>
+ <body>
+    <link rel="stylesheet" href="style.css">
     <div>
-        <h1 style="color: darkred; font-size: 50px; font-weight: 500; text-align: center;"><b>Karibu Restaurant</b></h1>
-        <nav>
+        <h1 style="color: goldenrod; font-size: 100px; font-weight: 500; text-align: center;"><b><i>Karibu Restaurant</i></b></h1>
+        <nav class="nav-bar" style="width: 100%;">
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="services.html">Services</a></li>
@@ -45,10 +62,10 @@
              Our menu includes traditional and modern dishes for everyone to enjoy.</p>
     </div>
 
-    <h2 style="color:darkred;text-align:center;">Our Menu</h2>
+    <h2 style="color:darkred;">Our Menu</h2>
     <div class="section2">
-     <table border="1" style="background-color: bisque" id="Food">
-            <tr style="background-color: black; color: pink;">
+     <table border="1" style="background-color: bisque" id="Food" class="table">
+            <tr>
                 <th>Meal</th>
                 <th>Description</th>
                 <th>Price(ksh)</th>
@@ -86,8 +103,8 @@
             </tr>
     </table>
     </div>
-        <h3 style="color: darkred; text-align: center;">Popular Items</h3>
-        <div class="section1">
+        <h3 style="color: darkred;">Popular Items</h3>
+        <div class="pop-container">
             
             <ol class="list">
                 <li>Pilau</li>
@@ -98,9 +115,9 @@
             </ol>
             
         </div>
-         <h4 style="color: darkred; text-align: center;">Customer Login</h4>
+         <h4 style="color: darkred;">Customer Login</h4>
     <div class="section3">
-        <form action="" style="background-color: pink;">
+        <form action="" >
             <label for="uname">Username</label><br>
             <input type="text" name="user-name" id="uname"><br>
             <label for="pword">Password</label><br>
@@ -108,9 +125,9 @@
             <input type="submit" value="Login">
         </form>
     </div> 
-
-    <h3 style="color: darkred; text-align: center;">Make a reservation</h3>
-     <div class="section4">
+<div class="ancestor">
+    <h3 style="color: darkred;">Make a reservation</h3>
+    <div class="form-reservation">
          <form action="" class="section4">
             <label for="name">Name</label><br>
             <input type="text" name="n-me" id="name"><br>
@@ -122,7 +139,9 @@
             <input type="date" name="" id="date>" > <br>
            <br> <input type="submit" value="Make Reservation">
          </form>
-     </div> <a href="services.html" >Click to view servives</a>
+     </div> 
+     </div>
+     <a href="services.html" >Click to view servives</a>
     <p style="color: darkred;"><b>ALL ARE WELCOME</b></p> 
     <a href="menu.html">Click to view our menu</a>
     
